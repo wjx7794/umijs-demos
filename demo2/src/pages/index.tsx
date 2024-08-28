@@ -1,5 +1,4 @@
 import styles from './index.less';
-
 export default function () {
   console.log('process.env.NAME>>>', process.env.NAME);
   return (
