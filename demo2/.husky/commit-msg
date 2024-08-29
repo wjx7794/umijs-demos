@@ -1,0 +1,7 @@
+echo '🔥commit-msg'
+
+. "$(dirname -- "$0")/_/husky.sh"
+
+# npx commitlint --edit "${1}"
+# npx --no-install commitlint -e $GIT_PARAMS
+pnpm run lint
